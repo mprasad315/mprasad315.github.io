@@ -7,8 +7,12 @@
 	<div class = "shadow p-3 mb-2 bg-info text-white">
 		<p class ="text-center"> Welcome to Madhav Prasad's personal website </p>
 	</div>
-
+	
 	<div class = "row">
+		$('myList a').on('click', function(e){
+			e.preventDefault()
+			$(this).tab('show')
+		}
 		<div class = "col-4">
 			<div class = "list-group" id = "list-tab" role = "tablist">
 				<a class="list-group-item list-group-item-action active" id="list-AboutMe-list" data-toggle="list" href="#list-AboutMe" role="tab" aria-controls="AboutMe">About Me</a>
