@@ -9,10 +9,7 @@
 	</div>
 	
 	<div class = "row">
-		$('myList a').on('click', function(e){
-			e.preventDefault()
-			$(this).tab('show')
-		}
+
 		<div class = "col-4">
 			<div class = "list-group" id = "list-tab" role = "tablist">
 				<a class="list-group-item list-group-item-action active" id="list-AboutMe-list" data-toggle="list" href="#list-AboutMe" role="tab" aria-controls="AboutMe">About Me</a>
@@ -24,11 +21,13 @@
 		<div class = "col-6">
 			<div class = "tab-content" id="nav-tabContent">
 				<div class="tab-pane fade show active" id="list-AboutMe" role="tabpanel" aria-labelledby="list-AboutMe-list">THIS IS WHERE I WILL WRITE ABOUT ME</div>
-				<div class="tab-pane fade show" id="list-Contact" role="tabpanel" aria-labelledby="list-Contact-list">THIS IS WHERE I WILL INSERT AN EMAIL WINDOW</div>
-				<div class = "tab-pane fade show" id="list-Resume" role="tabpanel" aria-labelledby="list-Resume-list">THIS IS WHERE I WILL INSERT MY RESUME</div>
-				<div class="tab-pane fade show" id="list-Github" role="tabpanel" aria-labelledby="list-Github-list">THIS IS WHERE I WILL LINK TO MY GITHUB</div>
+				<div class="tab-pane fade" id="list-Contact" role="tabpanel" aria-labelledby="list-Contact-list">THIS IS WHERE I WILL INSERT AN EMAIL WINDOW</div>
+				<div class = "tab-pane fade" id="list-Resume" role="tabpanel" aria-labelledby="list-Resume-list">THIS IS WHERE I WILL INSERT MY RESUME</div>
+				<div class="tab-pane fade" id="list-Github" role="tabpanel" aria-labelledby="list-Github-list">THIS IS WHERE I WILL LINK TO MY GITHUB</div>
 			</div>
 		</div>
+
 	</div>
+
 
 </html>
